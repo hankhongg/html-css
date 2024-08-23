@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Challenge 12</title>
+        <style>
+            body {
+                margin: 0;
+            }
+            p {
+                font-family: Roboto;
+            }
+            .button {
+                background-color: rgb(47, 121, 239);
+                padding-left: 10px;
+                padding-right: 10px;
+                display: flex;
+                color: white;
+                font-weight: bold;
+                border-radius: 23px;
+                padding-bottom: 1.5px;
+                padding-top: 1.5px;
+            }
+            .images {
+                width: 50px; height: 50px;
+                border-radius: 180px;
+                vertical-align: middle;
+                text-align: center;
+            }
+
+            .name {
+                font-weight: bold;
+            }
+            .des1{
+                color: rgb(184, 182, 182);
+            }
+            .des2{
+                color: rgb(184, 182, 182);
+                font-size: small;
+            }
+            .button1 {
+                background-color: rgb(47, 121, 239);
+                padding-left: 10px;
+                padding-right: 10px;
+                display: flex;
+                color: white;
+                font-weight: bold;
+                border-radius: 7px;
+                padding-bottom: 7px;
+                padding-top: 7px;
+                border: none;
+                cursor: pointer;
+            }
+
+            .home {
+                color: white;
+                font-weight: bold;
+
+            }
+            .search-bar{
+                max-width: 1000px;
+                flex: 1;
+            }
+            .button2{
+                background-color: rgb(97, 30, 192);
+                border: solid;
+                border-color: white;
+                color: white;
+                padding: 15px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                border-radius: 3px;
+                border-width: 1.5px;
+                cursor: pointer;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div style = "padding-top: 7px; padding-left: 7px; padding-right: 7px; padding-bottom: 7px;
+        display: flex; flex-direction:column; width: 280px; border: solid; border-color: lightgray;height: 85px;  
+        justify-content: space-between; border-width: 0.2px; border-radius: 5px; margin-top: 5px; margin-left: 5px;">
+            <div style = "display: flex; flex-direction: row; justify-content: space-between;"> 
+                <div>Home</div> 
+                <div class = "button">14</div>
+            </div>
+            <div style = "display: flex; flex-direction: row; justify-content: space-between;">
+                <div>Notification</div>
+                <div class = "button">3</div>
+            </div>
+            <div style = "display: flex; flex-direction: row; justify-content: space-between;">
+                <div>Messages</div>
+                <div class = "button">5</div>
+            </div>
+        </div>
+
+        <br>
+
+        <div style = "display: flex; flex-direction: column;  padding-top: 5px;
+        padding-right: 10px; padding-bottom: 5px; padding-left: 10px; width: 300px; row-gap: 13px;">
+            <div style = "display: flex; flex-direction: row; column-gap: 15px;">
+                <div style = "align-items: center; display: flex; justify-content: center;"><img class = "images"src = "photo.jpg"></div>
+                <div style = "display: flex; flex-direction: column;">
+                    <div class = "name">oliver</div>
+                    <div class = "des1">the cat</div>
+                    <div class = "des2">Popular</div>
+                </div>
+                <div style = "align-items: center; display: flex; justify-content: center; margin-left: auto;"><button class = "button1">Follow</button></div>
+            </div>
+            <div style = "display: flex; flex-direction: row; column-gap: 15px;">
+                <div style = "align-items: center; display: flex; justify-content: center;"><img class = "images" src = "punpun.jpg"></div>
+                <div style = "display: flex; flex-direction: column;">
+                    <div class = "name">Mimi</div>
+                    <div class = "des1">Sleepy cat</div>
+                    <div class = "des2">Popular</div>
+                </div>
+                <div style = "align-items: center; display: flex; justify-content: center; margin-left: auto;"><button class = "button1">Follow</button></div>
+            </div>
+            <div style = "display: flex; flex-direction: row; column-gap: 15px;">
+                <div style = "align-items: center; display: flex; justify-content: center; "><img class = "images" src = "avt.jpg"></div>
+                <div style = "display: flex; flex-direction: column;">
+                    <div class = "name">Rex</div>
+                    <div class = "des1">Happy Bulldog</div>
+                    <div class = "des2">Popular</div>
+                </div>
+                <div style = "align-items: center; display: flex; justify-content: center; margin-left: auto;"><button class = "button1">Follow</button></div>
+            </div>
+        </div>
+
+        <br>
+
+        <div style = "margin: 7px;padding-left: 20px; padding-right: 10px;display: flex; flex-direction: row; background-color: rgb(97, 30, 192); height: 50px; justify-content: space-between; align-items: center;">
+            <div class = "home" style = "width: 200px;">Home</div>
+            <div class = "search-bar"><input style = "width: 680px; padding-left: 20px; padding-top: 5px; padding-bottom: 5px; height: 20px;
+            border-radius: 30px; border: none;" type = "text box" placeholder="Search"></div>
+            <div  style = "margin-left: auto;"><button class = "button2">Download</button></div>
+        </div>
+    </body>
+</html>
